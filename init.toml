@@ -70,3 +70,4 @@ merged = false
 [[custom_plugins]]
 repo = "nvim-telescope/telescope-file-browser.nvim"
 merged = false
+
