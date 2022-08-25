@@ -35,8 +35,7 @@
     # Enable vim compatible mode, avoid changing origin vim key bindings
     vimcompatible = true
 
-[[layers]]
-name = "incsearch"
+#LAYERS SPACEVIM AND OTHERS
 
 [[layers]]
 name = "core#statusline"
@@ -47,9 +46,9 @@ name = "colorscheme"
 random_theme = false
 frequency = "1m"
 
-[[layers]]
-name = "git"
-git_plugin = 'Fugitve'
+#[[layers]]
+#name = "git"
+#git_plugin = 'Fugitve'
 
 [[layers]]
 name = 'autocomplete'
@@ -73,8 +72,6 @@ default_height = 30
 
 #**********************************************************************************************#
 #							     CUSTOMS PLUGINS											   #
-#									  FOR													   #
-#								CUSTOM CONFIGURATION										   #
 #**********************************************************************************************#
 [[custom_plugins]]
 repo = "nvim-telescope/telescope-file-browser.nvim"
@@ -106,4 +103,8 @@ merged = 0
 
 [[custom_plugins]]
 repo = "https://github.com/tpope/vim-fugitive.git"
+merged = 0
+
+[[custom_plugins]]
+repo = "https://github.com/42Paris/42header.git"
 merged = 0
