@@ -107,3 +107,7 @@ merged = 0
 [[custom_plugins]]
 repo = "https://github.com/tpope/vim-fugitive.git"
 merged = 0
+
+[[custom_plugins]]
+repo = "https://github.com/42Paris/42header.git"
+merged = 0
