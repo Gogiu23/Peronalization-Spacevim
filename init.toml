@@ -17,8 +17,8 @@
     # set spacevim theme. by default colorscheme layer is not loaded,
     # if you want to use more colorscheme, please load the colorscheme
     # layer
-    colorscheme = "oceanicnext"
-    colorscheme_bg = "dark"
+#    colorscheme = "oceanicnext"
+#   colorscheme_bg = "dark"
     # Disable guicolors in basic mode, many terminal do not support 24bit
     # true colors
     enable_guicolors = true
@@ -108,3 +108,15 @@ merged = 0
 [[custom_plugins]]
 repo = "https://github.com/42Paris/42header.git"
 merged = 0
+
+[[custom_plugins]]
+repo = "https://github.com/mhartington/oceanic-next.git"
+merged = 0
+
+[[custom_plugins]]
+repo = "https://github.com/goolord/alpha-nvim.git"
+merged = false
+
+[[custom_plugins]]
+repo = "https://github.com/mhinz/vim-startify.git"
+merged = false
