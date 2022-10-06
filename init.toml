@@ -54,8 +54,10 @@ frequency = "1m"
 name = 'autocomplete'
 auto_completion_return_key_behavior = "complete"
 auto_completion_tab_key_behavior = "cycle"
+
 [[layers]]
 name = "telescope"
+
 [[layers]]
 name = "ui"
 
